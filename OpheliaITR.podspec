@@ -2,13 +2,13 @@ Pod::Spec.new do |spec|
 
   spec.name         = "OpheliaITR"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of OpheliaITR."
+  spec.summary      = "This is short description of OpheliaITR."
 
   spec.description  = <<-DESC
+Ophelia is the typhoon name which has hit the U.S.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/OpheliaITR"
-
+  spec.homepage     = "https://github.com/rshimokura/OpheliaITR"
 
   spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
