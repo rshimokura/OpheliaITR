@@ -1,0 +1,6 @@
+framework module Pods_OpheliaITR {
+  umbrella header "Pods-OpheliaITR-umbrella.h"
+
+  export *
+  module * { export * }
+}

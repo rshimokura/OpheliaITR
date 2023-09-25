@@ -1,0 +1,6 @@
+framework module OpheliaITR {
+  umbrella header "OpheliaITR.h"
+
+  export *
+  module * { export * }
+}
