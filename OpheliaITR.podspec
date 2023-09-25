@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OpheliaITR"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This is short description of OpheliaITR."
 
   spec.description  = <<-DESC
@@ -15,8 +15,9 @@ Ophelia is the typhoon name which has hit the U.S.
 
   spec.platform     = :ios
   spec.ios.deployment_target = "14.0"
-  spec.source       = { :git => "https://github.com/rshimokura/OpheliaITR/archive/refs/tags/0.0.1.zip", :flatten => false } 
+  spec.source       = { :git => "https://github.com/rshimokura/OpheliaITR/archive/refs/tags/0.0.1.zip" }
   #spec.source       = { :git => "http://EXAMPLE/OpheliaITR.git", :tag => "#{spec.version}" }
+  spec.vendored_frameworks = "OpheliaITR.xcframework"
 
   spec.requires_arc = true
   spec.swift_version = "5.0"
