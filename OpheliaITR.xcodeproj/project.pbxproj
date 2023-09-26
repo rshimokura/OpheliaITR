@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2009F3BEBF858246BE70958C /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46832DF5366E006724E0230E /* Pods_Example.framework */; };
-		2AABE285EE3DAFDD28A16251 /* Pods_OpheliaITR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667A3C1F0B294E8DC5A9FDB6 /* Pods_OpheliaITR.framework */; };
 		ADDE16BA2AC2B0100012E5A8 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDE16B32AC2AF550012E5A8 /* Cartography.framework */; };
 		ADDE16BD2AC2B1890012E5A8 /* OpheliaITR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEED0D42AC16C53005D4F9A /* OpheliaITR.framework */; };
 		ADEED0D92AC16C53005D4F9A /* OpheliaITR.docc in Sources */ = {isa = PBXBuildFile; fileRef = ADEED0D82AC16C53005D4F9A /* OpheliaITR.docc */; };
@@ -21,6 +19,8 @@
 		ADEED13C2AC29C3B005D4F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEED13A2AC29C3B005D4F9A /* LaunchScreen.storyboard */; };
 		ADEED1432AC29D3A005D4F9A /* Nick.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEED1422AC29D3A005D4F9A /* Nick.swift */; };
 		ADEED1452AC29E06005D4F9A /* Ophelia.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEED1442AC29E06005D4F9A /* Ophelia.swift */; };
+		B707CF9EA224B2F67CCEDB78 /* Pods_OpheliaITR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A566C0F07D7BE4A5419B77 /* Pods_OpheliaITR.framework */; };
+		D826BF5A9FA4D36649923EC0 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0CE1432DDD3E5D4E5292A5 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D3FB79C45A12E57855C013 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		32ABC8C59B3E215A33A35CA1 /* Pods-OpheliaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpheliaITR.release.xcconfig"; path = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.release.xcconfig"; sourceTree = "<group>"; };
-		3CA357F844B3173E8D7289C2 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		46832DF5366E006724E0230E /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		667A3C1F0B294E8DC5A9FDB6 /* Pods_OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96BFA60837D0E12F20B6127F /* Pods-OpheliaITR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpheliaITR.debug.xcconfig"; path = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.debug.xcconfig"; sourceTree = "<group>"; };
+		33A566C0F07D7BE4A5419B77 /* Pods_OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73704D2074159EF92EB30C41 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8FEA1DA4C496C83745E05F2C /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		ADDE16B32AC2AF550012E5A8 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE16B52AC2AF770012E5A8 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEED0D42AC16C53005D4F9A /* OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +53,9 @@
 		ADEED1422AC29D3A005D4F9A /* Nick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nick.swift; sourceTree = "<group>"; };
 		ADEED1442AC29E06005D4F9A /* Ophelia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ophelia.swift; sourceTree = "<group>"; };
 		ADEED14A2AC2AD22005D4F9A /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70255DF045BF56CD4AB76FC /* Pods-OpheliaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpheliaITR.release.xcconfig"; path = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.release.xcconfig"; sourceTree = "<group>"; };
+		CA0CE1432DDD3E5D4E5292A5 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E232C3761C06B106192E90E5 /* Pods-OpheliaITR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpheliaITR.debug.xcconfig"; path = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADDE16BA2AC2B0100012E5A8 /* Cartography.framework in Frameworks */,
-				2AABE285EE3DAFDD28A16251 /* Pods_OpheliaITR.framework in Frameworks */,
+				B707CF9EA224B2F67CCEDB78 /* Pods_OpheliaITR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2009F3BEBF858246BE70958C /* Pods_Example.framework in Frameworks */,
 				ADDE16BD2AC2B1890012E5A8 /* OpheliaITR.framework in Frameworks */,
+				D826BF5A9FA4D36649923EC0 /* Pods_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +86,8 @@
 				ADDE16B52AC2AF770012E5A8 /* Cartography.framework */,
 				ADDE16B32AC2AF550012E5A8 /* Cartography.framework */,
 				ADEED14A2AC2AD22005D4F9A /* Cartography.framework */,
-				46832DF5366E006724E0230E /* Pods_Example.framework */,
-				667A3C1F0B294E8DC5A9FDB6 /* Pods_OpheliaITR.framework */,
+				CA0CE1432DDD3E5D4E5292A5 /* Pods_Example.framework */,
+				33A566C0F07D7BE4A5419B77 /* Pods_OpheliaITR.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,10 +148,10 @@
 		BA0586371EB7E58B76869CA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CA357F844B3173E8D7289C2 /* Pods-Example.debug.xcconfig */,
-				11D3FB79C45A12E57855C013 /* Pods-Example.release.xcconfig */,
-				96BFA60837D0E12F20B6127F /* Pods-OpheliaITR.debug.xcconfig */,
-				32ABC8C59B3E215A33A35CA1 /* Pods-OpheliaITR.release.xcconfig */,
+				73704D2074159EF92EB30C41 /* Pods-Example.debug.xcconfig */,
+				8FEA1DA4C496C83745E05F2C /* Pods-Example.release.xcconfig */,
+				E232C3761C06B106192E90E5 /* Pods-OpheliaITR.debug.xcconfig */,
+				B70255DF045BF56CD4AB76FC /* Pods-OpheliaITR.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEED0DD2AC16C53005D4F9A /* Build configuration list for PBXNativeTarget "OpheliaITR" */;
 			buildPhases = (
-				DBD13A4B057838B1464CE317 /* [CP] Check Pods Manifest.lock */,
+				6007A00782AC27E0672F0AD7 /* [CP] Check Pods Manifest.lock */,
 				ADEED0CF2AC16C53005D4F9A /* Headers */,
 				ADEED0D02AC16C53005D4F9A /* Sources */,
 				ADEED0D12AC16C53005D4F9A /* Frameworks */,
@@ -193,11 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADEED1402AC29C3B005D4F9A /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				BE62ABE028D82D0388AEEE47 /* [CP] Check Pods Manifest.lock */,
+				E1EEF94201E5BF479C392C6E /* [CP] Check Pods Manifest.lock */,
 				ADEED1292AC29C3A005D4F9A /* Sources */,
 				ADEED12A2AC29C3A005D4F9A /* Frameworks */,
 				ADEED12B2AC29C3A005D4F9A /* Resources */,
-				415FCFC810F455C04FEA14F5 /* [CP] Embed Pods Frameworks */,
+				E28B8C7B09F661BA48282CD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,24 +267,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		415FCFC810F455C04FEA14F5 /* [CP] Embed Pods Frameworks */ = {
+		6007A00782AC27E0672F0AD7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpheliaITR-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BE62ABE028D82D0388AEEE47 /* [CP] Check Pods Manifest.lock */ = {
+		E1EEF94201E5BF479C392C6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,26 +311,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DBD13A4B057838B1464CE317 /* [CP] Check Pods Manifest.lock */ = {
+		E28B8C7B09F661BA48282CD9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OpheliaITR-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -503,7 +503,7 @@
 		};
 		ADEED0DE2AC16C53005D4F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96BFA60837D0E12F20B6127F /* Pods-OpheliaITR.debug.xcconfig */;
+			baseConfigurationReference = E232C3761C06B106192E90E5 /* Pods-OpheliaITR.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +523,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = itrealize.co.jp.OpheliaITR;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -537,7 +538,7 @@
 		};
 		ADEED0DF2AC16C53005D4F9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32ABC8C59B3E215A33A35CA1 /* Pods-OpheliaITR.release.xcconfig */;
+			baseConfigurationReference = B70255DF045BF56CD4AB76FC /* Pods-OpheliaITR.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +558,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = itrealize.co.jp.OpheliaITR;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = NO;
@@ -571,7 +573,7 @@
 		};
 		ADEED13E2AC29C3B005D4F9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA357F844B3173E8D7289C2 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 73704D2074159EF92EB30C41 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -600,7 +602,7 @@
 		};
 		ADEED13F2AC29C3B005D4F9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11D3FB79C45A12E57855C013 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 8FEA1DA4C496C83745E05F2C /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
