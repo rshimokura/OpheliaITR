@@ -13,7 +13,7 @@ public final class Nick {
     public func sayHello() -> String {
         return "Hello, this is Nick."
     }
-    public func setOphelia(view: UIView) {
+    public func setNick(view: UIView) {
         let label = UILabel()
         label.text = "_NICK_"
         label.textAlignment = .center

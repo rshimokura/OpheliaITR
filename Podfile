@@ -9,3 +9,8 @@ target 'OpheliaITR' do
   # Pods for OpheliaITR
 
 end
+
+target 'Example' do
+  use_frameworks!
+  pod 'Cartography'
+end
