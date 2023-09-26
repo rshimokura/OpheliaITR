@@ -3,7 +3,7 @@
 # -------------- config --------------
 
 # Uncomment for debugging
-#set -x
+set -x
 
 # Set bash script to exit immediately if any commands fail
 set -e
@@ -21,7 +21,7 @@ outputDirectory="$( pwd; )/$moduleName.xcframework"
 ## Cleanup
 rm -rf $iphoneosArchiveDirectory
 rm -rf $iphoneosSimulatorDirectory
-rm -rf outputDirectory
+rm -rf $outputDirectory
 
 # Archive
 xcodebuild archive -scheme $moduleName \
