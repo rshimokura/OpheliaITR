@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print(Nick().sayHello())
         Nick().setNick(view: view)
+        Nick().showProgress(view: view)
     }
 
 

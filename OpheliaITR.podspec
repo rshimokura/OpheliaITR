@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OpheliaITR"
-  spec.version      = "0.0.9"
+  spec.version      = "0.0.10"
   spec.summary      = "This is short description of OpheliaITR."
 
   spec.description  = <<-DESC
@@ -25,5 +25,6 @@ Ophelia is the typhoon name which has hit the U.S.
   spec.swift_version = "5.0"
 
   spec.dependency "Cartography", "~> 4.0.0"
+  spec.dependency "ProgressHUD"
 
 end

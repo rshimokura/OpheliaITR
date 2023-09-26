@@ -7,126 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09127F6DAC0043DE7235BAB6E1B7DEF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E5B25A47991887009E3BE26C56C29 /* View.swift */; };
-		0CB02110898C24533FA7AA26EDB281DE /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292F0DE952CA15A5E05F1CF794D12A6C /* LayoutProxy.swift */; };
-		18B12B1E8C509ED95DAB5529B99FCC56 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE8556E2D6C71C583199D7A8C2522A /* Align.swift */; };
-		24BAC48D785EAE0E1D2C63818579794F /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9286AC38EFD41AA8702660DF9FCEEC2 /* Pods-Example-dummy.m */; };
-		2FF053DBA073C6F7CA56A9F9B84C3F03 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00B9BDCE27E9CD45D9773E642088E2 /* ViewProxy.swift */; };
-		332E5E8A62CFD4334D8176B1C71793E8 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6F6A4A62ABEA0FD869B2AFD096D80 /* Distribute.swift */; };
-		3905120BD48EA2F357C1BEC94D5A039C /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72830A2FFC182F6F87E3D5F7AB53531 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A6058699C87C5EE46A7CFE3706D52BF /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896609D516927132513CDDD3527EC84F /* LayoutSupport.swift */; };
-		404117F3A653689171797F5DB4E899ED /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281382FD5C0B0AE187EF248B7398232 /* Coefficients.swift */; };
-		46B204855B26249B9CC151686FA24F1F /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEE86AC001166CE108DFA4DACAFBFB /* Context.swift */; };
-		4FB593E362A2802C80E9BC4F5094C6EE /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DB244E01AC489C93A5D6C72C2F0A2A /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5196CA4836685EB0CB01EF4C0337C2D8 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21D7913735F125A1C8134FA4B8BCAB0 /* Point.swift */; };
-		538317F3642438798373992F8CEBA173 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65ECD74D971F8661A6BCBDC8EFC1C9B /* Constrain.swift */; };
-		57A244F75AE82B77DA700947A2A3AEB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		584C1BCB30F1B25541A09B0EDBC12B15 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA7DC1C9A5D10AA6173215ECED4A6D /* Compound.swift */; };
-		64A989C253F38BD64498AAA82CBA2BDB /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D2417756E6E1106541DAD5DEF0C13E /* LayoutSupportProxy.swift */; };
+		09127F6DAC0043DE7235BAB6E1B7DEF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B9FE0CABC82FF456E9C33FEB0EFBE4 /* View.swift */; };
+		0CB02110898C24533FA7AA26EDB281DE /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39223B8DAE94D0E7B200C9A53D4BF845 /* LayoutProxy.swift */; };
+		103264C7BA7C25FB3FB8BE0C3BDC07DC /* ProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E45016755EE943C0056E86133DE3AF9 /* ProgressHUD-dummy.m */; };
+		18B12B1E8C509ED95DAB5529B99FCC56 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69593425E7A04181A43FCB4A5E7AB0E6 /* Align.swift */; };
+		27A85A383A112E47710CD23A788B6922 /* ProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CCA917A83B7EB56A05E8EEC522171F /* ProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FF053DBA073C6F7CA56A9F9B84C3F03 /* ViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0355647A8E05595C0EFE98621DC28A6 /* ViewProxy.swift */; };
+		332E5E8A62CFD4334D8176B1C71793E8 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B997E9E4C3C8F349F2AA5F70D27E3B /* Distribute.swift */; };
+		35AB723BAC840D63219C19F6C000DD0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A6058699C87C5EE46A7CFE3706D52BF /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B899138DFE2282383F3D6567FD7F59 /* LayoutSupport.swift */; };
+		3D2D3BB39B2CC27DADA860D40EE50256 /* Pods-OpheliaITR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A1AEEFFEEDB453C5A50F8FD5BC062F /* Pods-OpheliaITR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E744983E85390EB9A40C4987D351583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		404117F3A653689171797F5DB4E899ED /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881C2C9E908DD30313AF0AEFC79DCB94 /* Coefficients.swift */; };
+		46B204855B26249B9CC151686FA24F1F /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6E0FF6140A984CC7957BCF7B31DB /* Context.swift */; };
+		4FB593E362A2802C80E9BC4F5094C6EE /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4C92C68C95EFB01FD27750887FEA7C4 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5196CA4836685EB0CB01EF4C0337C2D8 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1023F02EE9BCBD08E2074ACF86991 /* Point.swift */; };
+		538317F3642438798373992F8CEBA173 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396C40CA7DB3582AFD0DB50739F2C738 /* Constrain.swift */; };
+		584C1BCB30F1B25541A09B0EDBC12B15 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36906C75355805C9987631A63D93216F /* Compound.swift */; };
+		64A989C253F38BD64498AAA82CBA2BDB /* LayoutSupportProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3174ECCBE93D2E21A2B6B6622ADCA8E /* LayoutSupportProxy.swift */; };
 		75D42652BC8AA6DA1F3E8F42D628966F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9017476C4302FFEEEF0D77FAB3508CFF /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BD31AF53C6CBF4176D160BB803782F /* LayoutItem.swift */; };
-		93DB06D9C41CDD3F823F264FCAAE9AA2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE967018C6E2EC4FE719DEDC396EA21C /* Size.swift */; };
-		9F6A5133339E3CFE0E13020E2E569DBD /* Pods-OpheliaITR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A1AEEFFEEDB453C5A50F8FD5BC062F /* Pods-OpheliaITR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA41BFB650E6CA5C1BDBFAB3A27E7811 /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CA25196BD9D28CF7463D314FF5DBA7 /* AutoresizingMaskLayoutProxy.swift */; };
-		B12932004DDE6EF213F5872D67083F37 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F596E200B4B03D40C187F315C0B99D69 /* Expression.swift */; };
-		B58E806C579BA03DEE56B88F7BED7224 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00312DE7A1784C6CDDEAA3600D1B662B /* Edges.swift */; };
-		B8B157F7462CFB1891DA34E18A634B4B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A3669FB105C762B0582E81D2CC124 /* Property.swift */; };
-		BF34E990F1E33EA8BAEA6BFCB38C07CC /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3097C82FCCFF711F98D92312F3B0DA /* ConstraintGroup.swift */; };
-		DAF32ABDD9A9368CFA510E618E82D63A /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F19616CB56189F834180DA7C8CC59 /* Cartography-dummy.m */; };
-		DF012D2A649515A0930EBC53782D81F4 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EF0C7DA76DB87CDCF7E2F167FB4E7 /* LayoutGuide.swift */; };
-		E068BE1D5D0DAA47F28C77D383A0AD00 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5A7288A548019FAE6317CFC2499AE9 /* Dimension.swift */; };
-		E87A46FBE4E9DD27192A4892A344E99F /* Pods-OpheliaITR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB14C2D83EAAA9B169E692DB89172 /* Pods-OpheliaITR-dummy.m */; };
-		E8B1868F531E72F4B0EA0D6980E92B79 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0EB50B9E6F48164F00DA8542A42D14 /* Priority.swift */; };
-		EA5E092B315D88F448B980CA7B0BCFCA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F153CE330134A64BB8C5838CC49EF36 /* Constraint.swift */; };
-		F2BF9D60EAD7924F5F5FA4235E344CE8 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B6189A131BEC7CE21930CA8D3DA97 /* LayoutGuideProxy.swift */; };
-		F46BB2906CA0DB12CC02D8DA472546AA /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400702FB1186890F6355FACAE724DE29 /* Edge.swift */; };
-		F6289127BF0C7462404949717D81D3DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D926E7A6DA05FFFF07B396BEB1F76 /* Extensions.swift */; };
-		F6C8782E97BDB85816A95BE8E900F079 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7068DC674C520987BF5D10ADA2E3AD /* LayoutProxy+TypeErasure.swift */; };
-		FAF740C43A232ADB36B0EC08A782C969 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9017476C4302FFEEEF0D77FAB3508CFF /* LayoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7222F7E0B2D228F79F135BC6BFF2C /* LayoutItem.swift */; };
+		93DB06D9C41CDD3F823F264FCAAE9AA2 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B95D54B4DDF217FD2B78B8199514700 /* Size.swift */; };
+		A13770CE6487AAE3CB75FF0A676FE549 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9286AC38EFD41AA8702660DF9FCEEC2 /* Pods-Example-dummy.m */; };
+		A25FB3F91F471C0E8028CF5D4955751E /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72830A2FFC182F6F87E3D5F7AB53531 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA41BFB650E6CA5C1BDBFAB3A27E7811 /* AutoresizingMaskLayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43AC16F7BDC3529C1EAC8A0CF89EFFB /* AutoresizingMaskLayoutProxy.swift */; };
+		AAE52E30615356309C13A9F160BB8CAF /* ProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E9A64565A66023FBF79CCB2CD9FB7 /* ProgressHUD.swift */; };
+		B12932004DDE6EF213F5872D67083F37 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356D8DA0268DB87CADDBA28301E7797 /* Expression.swift */; };
+		B58E806C579BA03DEE56B88F7BED7224 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144448F7DCCB81FE1F5E8936E2ED5FE0 /* Edges.swift */; };
+		B8B157F7462CFB1891DA34E18A634B4B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F937F7A1381C2D2283C48D15275A2F5E /* Property.swift */; };
+		BF34E990F1E33EA8BAEA6BFCB38C07CC /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F66DADD085846EE0DA8D294A03FCCAC /* ConstraintGroup.swift */; };
+		C927F3C1C4DC197CC1FC4CCF52129A61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DAF32ABDD9A9368CFA510E618E82D63A /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906463D250C818A68AC237AD5F25281C /* Cartography-dummy.m */; };
+		DF012D2A649515A0930EBC53782D81F4 /* LayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE433171E3045C2D19B9D73356F5017 /* LayoutGuide.swift */; };
+		E068BE1D5D0DAA47F28C77D383A0AD00 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40140A8676B067F705BF81DB6797F44F /* Dimension.swift */; };
+		E191D058AE2BB32E5A735831186E32DB /* Pods-OpheliaITR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EB14C2D83EAAA9B169E692DB89172 /* Pods-OpheliaITR-dummy.m */; };
+		E8B1868F531E72F4B0EA0D6980E92B79 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE72035CDCFDDD6D2F6ED907C7A782E9 /* Priority.swift */; };
+		EA5E092B315D88F448B980CA7B0BCFCA /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B1121DF9A18A26CBAED100D20C480 /* Constraint.swift */; };
+		F2BF9D60EAD7924F5F5FA4235E344CE8 /* LayoutGuideProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C26EEF102B979E4512F65570469B730 /* LayoutGuideProxy.swift */; };
+		F46BB2906CA0DB12CC02D8DA472546AA /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01A60AF6A08947A294548B43F6F6788 /* Edge.swift */; };
+		F6289127BF0C7462404949717D81D3DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34644FF74E5B2C13CF4D2AB4A51296F4 /* Extensions.swift */; };
+		F6C8782E97BDB85816A95BE8E900F079 /* LayoutProxy+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4A442278BCCF538C645CED408E290 /* LayoutProxy+TypeErasure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		427D15F232A1E166B2ED0E97556F689C /* PBXContainerItemProxy */ = {
+		25A5C4A30F89CB7174B327675F38EC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
+			remoteInfo = ProgressHUD;
+		};
+		5ED80D57D0C1A35DCBF006BE6E56083F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
 			remoteInfo = Cartography;
 		};
-		6882BC1EFE2CE459BBE4B2C4688D7EDF /* PBXContainerItemProxy */ = {
+		82D2DB59A8242C9CB2501DF7E844F8D9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FBDBAAAB58D03FB5BB194A7F5231422;
 			remoteInfo = Cartography;
+		};
+		F7E1A8941E35D45127311380602B26E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 022D0373DF61EE4E133BADB43CE7ED57;
+			remoteInfo = ProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00312DE7A1784C6CDDEAA3600D1B662B /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
-		00CE8556E2D6C71C583199D7A8C2522A /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
 		01F1B2E4F664DB3A9CAC7464E05C121C /* Pods-OpheliaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpheliaITR.release.xcconfig"; sourceTree = "<group>"; };
-		0B5D926E7A6DA05FFFF07B396BEB1F76 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		0B5E5B25A47991887009E3BE26C56C29 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		02B899138DFE2282383F3D6567FD7F59 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		070F288B31A98004E3000FDC548FFEEF /* Cartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.debug.xcconfig; sourceTree = "<group>"; };
 		0C2EB14C2D83EAAA9B169E692DB89172 /* Pods-OpheliaITR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpheliaITR-dummy.m"; sourceTree = "<group>"; };
+		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressHUD; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E43015180AC3FB43472BE233E8CC6D2 /* Pods-OpheliaITR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpheliaITR.modulemap"; sourceTree = "<group>"; };
-		1A3097C82FCCFF711F98D92312F3B0DA /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		144448F7DCCB81FE1F5E8936E2ED5FE0 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		15B9FE0CABC82FF456E9C33FEB0EFBE4 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
 		1A6F2AACD40ABF38E15789677E0C0285 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1C8A74F981968FD09165B2E64D215316 /* Cartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.debug.xcconfig; sourceTree = "<group>"; };
-		1E2F19616CB56189F834180DA7C8CC59 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20E2D66AE5BB1DE2DCFE395D8F0C99B6 /* Cartography-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cartography-Info.plist"; sourceTree = "<group>"; };
-		292F0DE952CA15A5E05F1CF794D12A6C /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
 		2A63A5BC8A76B2713B8FF4B1DD92A609 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		34DB244E01AC489C93A5D6C72C2F0A2A /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		30A1023F02EE9BCBD08E2074ACF86991 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		31B4A442278BCCF538C645CED408E290 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
+		34644FF74E5B2C13CF4D2AB4A51296F4 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		3665F1DAB06B6AC7B94D8C762057E9F5 /* ProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		36906C75355805C9987631A63D93216F /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		39223B8DAE94D0E7B200C9A53D4BF845 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		396C40CA7DB3582AFD0DB50739F2C738 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		3B95D54B4DDF217FD2B78B8199514700 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 		3CAC25532D548F880CB0F5E81AE005A9 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
-		400702FB1186890F6355FACAE724DE29 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		40140A8676B067F705BF81DB6797F44F /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
 		4256423CECF663ECDF0421CBE5C290D1 /* Pods-OpheliaITR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpheliaITR-Info.plist"; sourceTree = "<group>"; };
 		47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpheliaITR"; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0EB50B9E6F48164F00DA8542A42D14 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
 		553B0C453E9B8AA96A27D87753235E91 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		55BD31AF53C6CBF4176D160BB803782F /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
-		5BD6F6A4A62ABEA0FD869B2AFD096D80 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		5AA3BF04B6B98D14DB1D51252DE67F8C /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		5DEDB65EFD40099ADD720C7A97510240 /* Cartography */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F153CE330134A64BB8C5838CC49EF36 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
 		6055F4A441A594893E589AB6BE0904EF /* Pods-OpheliaITR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpheliaITR-acknowledgements.markdown"; sourceTree = "<group>"; };
-		61CA25196BD9D28CF7463D314FF5DBA7 /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
+		65A7222F7E0B2D228F79F135BC6BFF2C /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
 		694AFEA45E03D1BB30CDCECE30E393BB /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		69593425E7A04181A43FCB4A5E7AB0E6 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		6EE433171E3045C2D19B9D73356F5017 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E5A3669FB105C762B0582E81D2CC124 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		84BA7DC1C9A5D10AA6173215ECED4A6D /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		896609D516927132513CDDD3527EC84F /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
-		8D6B6189A131BEC7CE21930CA8D3DA97 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
-		8D7068DC674C520987BF5D10ADA2E3AD /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
-		9A00B9BDCE27E9CD45D9773E642088E2 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		7E45016755EE943C0056E86133DE3AF9 /* ProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		86CF683DFF161B984A2058A57408CC85 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		881C2C9E908DD30313AF0AEFC79DCB94 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		906463D250C818A68AC237AD5F25281C /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		95CCA917A83B7EB56A05E8EEC522171F /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		98B997E9E4C3C8F349F2AA5F70D27E3B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		9C26EEF102B979E4512F65570469B730 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F66DADD085846EE0DA8D294A03FCCAC /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
 		A3C68D3843673C3E2B299E4DC35AF8AA /* Pods-OpheliaITR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpheliaITR-acknowledgements.plist"; sourceTree = "<group>"; };
 		A68009C4880FB8B41CED8E66E51D202B /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B21D7913735F125A1C8134FA4B8BCAB0 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		A89675979AC65D81FC4FFD8621C57B38 /* ProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		A89AA46E0C9A61D5EE49FDF983F09046 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
+		AC5E9A64565A66023FBF79CCB2CD9FB7 /* ProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressHUD.swift; path = ProgressHUD/Sources/ProgressHUD.swift; sourceTree = "<group>"; };
 		B72830A2FFC182F6F87E3D5F7AB53531 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		B88F47DF847D3048EE3380F6171C9899 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		BC1A315A74F733135DEAF23217D50491 /* Cartography-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cartography-Info.plist"; sourceTree = "<group>"; };
+		BE72035CDCFDDD6D2F6ED907C7A782E9 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		C07D6E0FF6140A984CC7957BCF7B31DB /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
 		C2C0EFDC6D6DC93AB8CDE6960BA3221D /* Pods-OpheliaITR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpheliaITR.debug.xcconfig"; sourceTree = "<group>"; };
-		C2C2A2B4CB808BFECD01A7ED64E2531E /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cartography.modulemap; sourceTree = "<group>"; };
-		CCDEE86AC001166CE108DFA4DACAFBFB /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		CE967018C6E2EC4FE719DEDC396EA21C /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		D281382FD5C0B0AE187EF248B7398232 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		D8D2417756E6E1106541DAD5DEF0C13E /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+		CDC1ACAE207BD6BFFC4144EF2F60B490 /* ProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		D01A60AF6A08947A294548B43F6F6788 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		D1E836F86264DB07CCD878BE11068983 /* Cartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.release.xcconfig; sourceTree = "<group>"; };
+		D356D8DA0268DB87CADDBA28301E7797 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		D4C92C68C95EFB01FD27750887FEA7C4 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
 		D93335DCD91E4121D565B1674E99783C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E52EF0C7DA76DB87CDCF7E2F167FB4E7 /* LayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuide.swift; path = Cartography/LayoutGuide.swift; sourceTree = "<group>"; };
-		F596E200B4B03D40C187F315C0B99D69 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		E3174ECCBE93D2E21A2B6B6622ADCA8E /* LayoutSupportProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupportProxy.swift; path = Cartography/LayoutSupportProxy.swift; sourceTree = "<group>"; };
+		EC386749629A88D586701376954CFFFD /* ProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressHUD.modulemap; sourceTree = "<group>"; };
+		F0355647A8E05595C0EFE98621DC28A6 /* ViewProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProxy.swift; path = Cartography/ViewProxy.swift; sourceTree = "<group>"; };
+		F43AC16F7BDC3529C1EAC8A0CF89EFFB /* AutoresizingMaskLayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoresizingMaskLayoutProxy.swift; path = Cartography/AutoresizingMaskLayoutProxy.swift; sourceTree = "<group>"; };
 		F5A1AEEFFEEDB453C5A50F8FD5BC062F /* Pods-OpheliaITR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpheliaITR-umbrella.h"; sourceTree = "<group>"; };
-		F65ECD74D971F8661A6BCBDC8EFC1C9B /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
 		F9286AC38EFD41AA8702660DF9FCEEC2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		FB86BCBF5B80117804F5FDF14817FBAC /* Cartography.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.release.xcconfig; sourceTree = "<group>"; };
-		FF5A7288A548019FAE6317CFC2499AE9 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		F937F7A1381C2D2283C48D15275A2F5E /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		FC1B1121DF9A18A26CBAED100D20C480 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CDBA3D4B4EF6AEE5427265B7D0EBD8F /* Frameworks */ = {
+		0403D7792CFB66996E076792E63F82DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF740C43A232ADB36B0EC08A782C969 /* Foundation.framework in Frameworks */,
+				C927F3C1C4DC197CC1FC4CCF52129A61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0AF90633BD5E1FC6EA42D6CC479CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AB723BAC840D63219C19F6C000DD0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,59 +173,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8FC49E6CDB3D8177B6304B812298292 /* Frameworks */ = {
+		7A39781B66DC4405F6AA929EC862891C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A244F75AE82B77DA700947A2A3AEB7 /* Foundation.framework in Frameworks */,
+				3E744983E85390EB9A40C4987D351583 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06FBE34282EF828842DF4454D7CEF8CD /* Cartography */ = {
+		040DFA36F27CA4097BB2E9B300DA0760 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00CE8556E2D6C71C583199D7A8C2522A /* Align.swift */,
-				61CA25196BD9D28CF7463D314FF5DBA7 /* AutoresizingMaskLayoutProxy.swift */,
-				D281382FD5C0B0AE187EF248B7398232 /* Coefficients.swift */,
-				84BA7DC1C9A5D10AA6173215ECED4A6D /* Compound.swift */,
-				F65ECD74D971F8661A6BCBDC8EFC1C9B /* Constrain.swift */,
-				5F153CE330134A64BB8C5838CC49EF36 /* Constraint.swift */,
-				1A3097C82FCCFF711F98D92312F3B0DA /* ConstraintGroup.swift */,
-				CCDEE86AC001166CE108DFA4DACAFBFB /* Context.swift */,
-				FF5A7288A548019FAE6317CFC2499AE9 /* Dimension.swift */,
-				5BD6F6A4A62ABEA0FD869B2AFD096D80 /* Distribute.swift */,
-				400702FB1186890F6355FACAE724DE29 /* Edge.swift */,
-				00312DE7A1784C6CDDEAA3600D1B662B /* Edges.swift */,
-				F596E200B4B03D40C187F315C0B99D69 /* Expression.swift */,
-				0B5D926E7A6DA05FFFF07B396BEB1F76 /* Extensions.swift */,
-				E52EF0C7DA76DB87CDCF7E2F167FB4E7 /* LayoutGuide.swift */,
-				8D6B6189A131BEC7CE21930CA8D3DA97 /* LayoutGuideProxy.swift */,
-				55BD31AF53C6CBF4176D160BB803782F /* LayoutItem.swift */,
-				292F0DE952CA15A5E05F1CF794D12A6C /* LayoutProxy.swift */,
-				8D7068DC674C520987BF5D10ADA2E3AD /* LayoutProxy+TypeErasure.swift */,
-				896609D516927132513CDDD3527EC84F /* LayoutSupport.swift */,
-				D8D2417756E6E1106541DAD5DEF0C13E /* LayoutSupportProxy.swift */,
-				B21D7913735F125A1C8134FA4B8BCAB0 /* Point.swift */,
-				4F0EB50B9E6F48164F00DA8542A42D14 /* Priority.swift */,
-				7E5A3669FB105C762B0582E81D2CC124 /* Property.swift */,
-				CE967018C6E2EC4FE719DEDC396EA21C /* Size.swift */,
-				0B5E5B25A47991887009E3BE26C56C29 /* View.swift */,
-				9A00B9BDCE27E9CD45D9773E642088E2 /* ViewProxy.swift */,
-				406362732ED9DA2A9CBAF372EAE43538 /* Support Files */,
+				10726EB282A6E41989804018FAD6824C /* Cartography */,
+				9643842D8518CD66F8F7511773326E9D /* ProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10726EB282A6E41989804018FAD6824C /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				69593425E7A04181A43FCB4A5E7AB0E6 /* Align.swift */,
+				F43AC16F7BDC3529C1EAC8A0CF89EFFB /* AutoresizingMaskLayoutProxy.swift */,
+				881C2C9E908DD30313AF0AEFC79DCB94 /* Coefficients.swift */,
+				36906C75355805C9987631A63D93216F /* Compound.swift */,
+				396C40CA7DB3582AFD0DB50739F2C738 /* Constrain.swift */,
+				FC1B1121DF9A18A26CBAED100D20C480 /* Constraint.swift */,
+				9F66DADD085846EE0DA8D294A03FCCAC /* ConstraintGroup.swift */,
+				C07D6E0FF6140A984CC7957BCF7B31DB /* Context.swift */,
+				40140A8676B067F705BF81DB6797F44F /* Dimension.swift */,
+				98B997E9E4C3C8F349F2AA5F70D27E3B /* Distribute.swift */,
+				D01A60AF6A08947A294548B43F6F6788 /* Edge.swift */,
+				144448F7DCCB81FE1F5E8936E2ED5FE0 /* Edges.swift */,
+				D356D8DA0268DB87CADDBA28301E7797 /* Expression.swift */,
+				34644FF74E5B2C13CF4D2AB4A51296F4 /* Extensions.swift */,
+				6EE433171E3045C2D19B9D73356F5017 /* LayoutGuide.swift */,
+				9C26EEF102B979E4512F65570469B730 /* LayoutGuideProxy.swift */,
+				65A7222F7E0B2D228F79F135BC6BFF2C /* LayoutItem.swift */,
+				39223B8DAE94D0E7B200C9A53D4BF845 /* LayoutProxy.swift */,
+				31B4A442278BCCF538C645CED408E290 /* LayoutProxy+TypeErasure.swift */,
+				02B899138DFE2282383F3D6567FD7F59 /* LayoutSupport.swift */,
+				E3174ECCBE93D2E21A2B6B6622ADCA8E /* LayoutSupportProxy.swift */,
+				30A1023F02EE9BCBD08E2074ACF86991 /* Point.swift */,
+				BE72035CDCFDDD6D2F6ED907C7A782E9 /* Priority.swift */,
+				F937F7A1381C2D2283C48D15275A2F5E /* Property.swift */,
+				3B95D54B4DDF217FD2B78B8199514700 /* Size.swift */,
+				15B9FE0CABC82FF456E9C33FEB0EFBE4 /* View.swift */,
+				F0355647A8E05595C0EFE98621DC28A6 /* ViewProxy.swift */,
+				A10AFB0F190373D2740FA5B5E0427F8C /* Support Files */,
 			);
 			name = Cartography;
 			path = Cartography;
-			sourceTree = "<group>";
-		};
-		23657BAEF11FA94E38F1018A121985E3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				06FBE34282EF828842DF4454D7CEF8CD /* Cartography */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		25C41416052D179768718B49F480F3A2 /* Pods-OpheliaITR */ = {
@@ -209,19 +245,19 @@
 			path = "Target Support Files/Pods-OpheliaITR";
 			sourceTree = "<group>";
 		};
-		406362732ED9DA2A9CBAF372EAE43538 /* Support Files */ = {
+		50A7B33A0CE811426993B1F1991355ED /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C2C2A2B4CB808BFECD01A7ED64E2531E /* Cartography.modulemap */,
-				1E2F19616CB56189F834180DA7C8CC59 /* Cartography-dummy.m */,
-				20E2D66AE5BB1DE2DCFE395D8F0C99B6 /* Cartography-Info.plist */,
-				B88F47DF847D3048EE3380F6171C9899 /* Cartography-prefix.pch */,
-				34DB244E01AC489C93A5D6C72C2F0A2A /* Cartography-umbrella.h */,
-				1C8A74F981968FD09165B2E64D215316 /* Cartography.debug.xcconfig */,
-				FB86BCBF5B80117804F5FDF14817FBAC /* Cartography.release.xcconfig */,
+				EC386749629A88D586701376954CFFFD /* ProgressHUD.modulemap */,
+				7E45016755EE943C0056E86133DE3AF9 /* ProgressHUD-dummy.m */,
+				A89675979AC65D81FC4FFD8621C57B38 /* ProgressHUD-Info.plist */,
+				5AA3BF04B6B98D14DB1D51252DE67F8C /* ProgressHUD-prefix.pch */,
+				95CCA917A83B7EB56A05E8EEC522171F /* ProgressHUD-umbrella.h */,
+				3665F1DAB06B6AC7B94D8C762057E9F5 /* ProgressHUD.debug.xcconfig */,
+				CDC1ACAE207BD6BFFC4144EF2F60B490 /* ProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Cartography";
+			path = "../Target Support Files/ProgressHUD";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -258,14 +294,29 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		A89023B3B33A86AC26495CC7E8ADA231 /* Products */ = {
+		9643842D8518CD66F8F7511773326E9D /* ProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				5DEDB65EFD40099ADD720C7A97510240 /* Cartography */,
-				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
-				47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */,
+				AC5E9A64565A66023FBF79CCB2CD9FB7 /* ProgressHUD.swift */,
+				50A7B33A0CE811426993B1F1991355ED /* Support Files */,
 			);
-			name = Products;
+			name = ProgressHUD;
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		A10AFB0F190373D2740FA5B5E0427F8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A89AA46E0C9A61D5EE49FDF983F09046 /* Cartography.modulemap */,
+				906463D250C818A68AC237AD5F25281C /* Cartography-dummy.m */,
+				BC1A315A74F733135DEAF23217D50491 /* Cartography-Info.plist */,
+				86CF683DFF161B984A2058A57408CC85 /* Cartography-prefix.pch */,
+				D4C92C68C95EFB01FD27750887FEA7C4 /* Cartography-umbrella.h */,
+				070F288B31A98004E3000FDC548FFEEF /* Cartography.debug.xcconfig */,
+				D1E836F86264DB07CCD878BE11068983 /* Cartography.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -273,8 +324,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				23657BAEF11FA94E38F1018A121985E3 /* Pods */,
-				A89023B3B33A86AC26495CC7E8ADA231 /* Products */,
+				040DFA36F27CA4097BB2E9B300DA0760 /* Pods */,
+				DA14A32D022ACB019409968893423516 /* Products */,
 				8CD57DBD07D4CC2DC1FA0FCFDCC4FEB3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -287,14 +338,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA14A32D022ACB019409968893423516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DEDB65EFD40099ADD720C7A97510240 /* Cartography */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
+				47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */,
+				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B07EE7002566F80DF3193DEE5EF81EE /* Headers */ = {
+		07CC7ACA487B5C5AAC69774FEFA589B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3905120BD48EA2F357C1BEC94D5A039C /* Pods-Example-umbrella.h in Headers */,
+				3D2D3BB39B2CC27DADA860D40EE50256 /* Pods-OpheliaITR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA8D6C6656A33C337DB8991EC519D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25FB3F91F471C0E8028CF5D4955751E /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,30 +376,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F256FCFC72151612537B528FB66367A8 /* Headers */ = {
+		EFEE3F52910DD51F079CEA63CEDE3199 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6A5133339E3CFE0E13020E2E569DBD /* Pods-OpheliaITR-umbrella.h in Headers */,
+				27A85A383A112E47710CD23A788B6922 /* ProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+		022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C158798B87EFB87D4E3A036C684C1CAF /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = AF6E401F926DA5CF15252F28EF9FD6F7 /* Build configuration list for PBXNativeTarget "ProgressHUD" */;
 			buildPhases = (
-				3B07EE7002566F80DF3193DEE5EF81EE /* Headers */,
-				2F1B6997A38F63A88DCF3DBED62B8E5E /* Sources */,
-				A8FC49E6CDB3D8177B6304B812298292 /* Frameworks */,
-				C50351B78982E874DABE7F6E0915BD8B /* Resources */,
+				EFEE3F52910DD51F079CEA63CEDE3199 /* Headers */,
+				BFAC05816AF813646F419D6E676CEEDD /* Sources */,
+				0403D7792CFB66996E076792E63F82DE /* Frameworks */,
+				63F541A16C96C74E6F5603C003F291EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2B5E687DF853D439E8F38CFABCA019C4 /* PBXTargetDependency */,
+			);
+			name = ProgressHUD;
+			productName = ProgressHUD;
+			productReference = 0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5847D1B3391CA830077F9B48CC83C79E /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				0AA8D6C6656A33C337DB8991EC519D5A /* Headers */,
+				20E238B6D79A0B252B9D532160E87FFA /* Sources */,
+				7A39781B66DC4405F6AA929EC862891C /* Frameworks */,
+				F55E555E04E562D6F0411C7EC22881C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67D148F8B542F3E12AA19B6C29F2664 /* PBXTargetDependency */,
+				2E8F353000174107AA406DD27D37042B /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
@@ -338,17 +427,18 @@
 		};
 		7BFF39D798C7C5481879CDE1D8D0547B /* Pods-OpheliaITR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5300B41719B0CA16291E3D0B7C4D60D /* Build configuration list for PBXNativeTarget "Pods-OpheliaITR" */;
+			buildConfigurationList = F1D7C73533CF99D9507859B45C0A5100 /* Build configuration list for PBXNativeTarget "Pods-OpheliaITR" */;
 			buildPhases = (
-				F256FCFC72151612537B528FB66367A8 /* Headers */,
-				E4FFB4EE6D8126FD50630B7B056B2C80 /* Sources */,
-				4CDBA3D4B4EF6AEE5427265B7D0EBD8F /* Frameworks */,
-				019798FC87A8E36E493A0ADDA45476ED /* Resources */,
+				07CC7ACA487B5C5AAC69774FEFA589B4 /* Headers */,
+				7FA8DE4F6A39C3CBEECB290F6C7E0740 /* Sources */,
+				1F0AF90633BD5E1FC6EA42D6CC479CDC /* Frameworks */,
+				13165BC86D42066672B34FB63CDEC100 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AABAC987E12A52C7BB0EB7D3B9136EF /* PBXTargetDependency */,
+				F2990463B4731BAB00F9BA18C7C54156 /* PBXTargetDependency */,
+				7FC2FAD7A7E3DC01669F3F6DDFD7374B /* PBXTargetDependency */,
 			);
 			name = "Pods-OpheliaITR";
 			productName = Pods_OpheliaITR;
@@ -391,19 +481,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A89023B3B33A86AC26495CC7E8ADA231 /* Products */;
+			productRefGroup = DA14A32D022ACB019409968893423516 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */,
 				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
 				7BFF39D798C7C5481879CDE1D8D0547B /* Pods-OpheliaITR */,
+				022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		019798FC87A8E36E493A0ADDA45476ED /* Resources */ = {
+		13165BC86D42066672B34FB63CDEC100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F541A16C96C74E6F5603C003F291EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -417,7 +515,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C50351B78982E874DABE7F6E0915BD8B /* Resources */ = {
+		F55E555E04E562D6F0411C7EC22881C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,11 +525,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F1B6997A38F63A88DCF3DBED62B8E5E /* Sources */ = {
+		20E238B6D79A0B252B9D532160E87FFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24BAC48D785EAE0E1D2C63818579794F /* Pods-Example-dummy.m in Sources */,
+				A13770CE6487AAE3CB75FF0A676FE549 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,33 +568,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4FFB4EE6D8126FD50630B7B056B2C80 /* Sources */ = {
+		7FA8DE4F6A39C3CBEECB290F6C7E0740 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87A46FBE4E9DD27192A4892A344E99F /* Pods-OpheliaITR-dummy.m in Sources */,
+				E191D058AE2BB32E5A735831186E32DB /* Pods-OpheliaITR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAC05816AF813646F419D6E676CEEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE52E30615356309C13A9F160BB8CAF /* ProgressHUD.swift in Sources */,
+				103264C7BA7C25FB3FB8BE0C3BDC07DC /* ProgressHUD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B5E687DF853D439E8F38CFABCA019C4 /* PBXTargetDependency */ = {
+		2E8F353000174107AA406DD27D37042B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Cartography;
-			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
-			targetProxy = 427D15F232A1E166B2ED0E97556F689C /* PBXContainerItemProxy */;
+			name = ProgressHUD;
+			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
+			targetProxy = F7E1A8941E35D45127311380602B26E6 /* PBXContainerItemProxy */;
 		};
-		9AABAC987E12A52C7BB0EB7D3B9136EF /* PBXTargetDependency */ = {
+		7FC2FAD7A7E3DC01669F3F6DDFD7374B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProgressHUD;
+			target = 022D0373DF61EE4E133BADB43CE7ED57 /* ProgressHUD */;
+			targetProxy = 25A5C4A30F89CB7174B327675F38EC55 /* PBXContainerItemProxy */;
+		};
+		D67D148F8B542F3E12AA19B6C29F2664 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Cartography;
 			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
-			targetProxy = 6882BC1EFE2CE459BBE4B2C4688D7EDF /* PBXContainerItemProxy */;
+			targetProxy = 82D2DB59A8242C9CB2501DF7E844F8D9 /* PBXContainerItemProxy */;
+		};
+		F2990463B4731BAB00F9BA18C7C54156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = 8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */;
+			targetProxy = 5ED80D57D0C1A35DCBF006BE6E56083F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05287523794EB931F7F29EA15CB7B8D6 /* Debug */ = {
+		00E7529C6200EC37B0A4F4EEA95DD0CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A6F2AACD40ABF38E15789677E0C0285 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -532,6 +651,75 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		11669B0728A945E1C86E380F64AA1E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3665F1DAB06B6AC7B94D8C762057E9F5 /* ProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E454FA858B91A6F4FF4ADBB08A8A3D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC1ACAE207BD6BFFC4144EF2F60B490 /* ProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ProgressHUD/ProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ProgressHUD/ProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ProgressHUD/ProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = ProgressHUD;
+				PRODUCT_NAME = ProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -599,7 +787,44 @@
 			};
 			name = Debug;
 		};
-		6767761F9D33BB58C33F8A30F8CAD989 /* Release */ = {
+		62E16EC365D9AB2B37C51D4C892D80DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C0EFDC6D6DC93AB8CDE6960BA3221D /* Pods-OpheliaITR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6ACCD737C5C6ADE733136C4B62AEC94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A63A5BC8A76B2713B8FF4B1DD92A609 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -637,46 +862,9 @@
 			};
 			name = Release;
 		};
-		75168DBA0E81F14F2E141B2B0630B97D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2C0EFDC6D6DC93AB8CDE6960BA3221D /* Pods-OpheliaITR.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		77C27739652D9D37D4E00F8806E133E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB86BCBF5B80117804F5FDF14817FBAC /* Cartography.release.xcconfig */;
+			baseConfigurationReference = D1E836F86264DB07CCD878BE11068983 /* Cartography.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -771,41 +959,7 @@
 			};
 			name = Release;
 		};
-		EFD534947E3945029B8A4D7EF3D3DAEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C8A74F981968FD09165B2E64D215316 /* Cartography.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Cartography-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				PRODUCT_MODULE_NAME = Cartography;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F363E52EDF1C71850C9118D18C45D04C /* Release */ = {
+		9E0271F31E277DB650DB1D31F522D061 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01F1B2E4F664DB3A9CAC7464E05C121C /* Pods-OpheliaITR.release.xcconfig */;
 			buildSettings = {
@@ -843,6 +997,40 @@
 			};
 			name = Release;
 		};
+		EFD534947E3945029B8A4D7EF3D3DAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070F288B31A98004E3000FDC548FFEEF /* Cartography.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Cartography-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				PRODUCT_MODULE_NAME = Cartography;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -855,20 +1043,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C158798B87EFB87D4E3A036C684C1CAF /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		5847D1B3391CA830077F9B48CC83C79E /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05287523794EB931F7F29EA15CB7B8D6 /* Debug */,
-				6767761F9D33BB58C33F8A30F8CAD989 /* Release */,
+				00E7529C6200EC37B0A4F4EEA95DD0CE /* Debug */,
+				6ACCD737C5C6ADE733136C4B62AEC94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5300B41719B0CA16291E3D0B7C4D60D /* Build configuration list for PBXNativeTarget "Pods-OpheliaITR" */ = {
+		AF6E401F926DA5CF15252F28EF9FD6F7 /* Build configuration list for PBXNativeTarget "ProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75168DBA0E81F14F2E141B2B0630B97D /* Debug */,
-				F363E52EDF1C71850C9118D18C45D04C /* Release */,
+				11669B0728A945E1C86E380F64AA1E6A /* Debug */,
+				3E454FA858B91A6F4FF4ADBB08A8A3D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D7C73533CF99D9507859B45C0A5100 /* Build configuration list for PBXNativeTarget "Pods-OpheliaITR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E16EC365D9AB2B37C51D4C892D80DB /* Debug */,
+				9E0271F31E277DB650DB1D31F522D061 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

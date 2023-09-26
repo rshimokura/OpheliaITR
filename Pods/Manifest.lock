@@ -1,16 +1,20 @@
 PODS:
   - Cartography (4.0.0)
+  - ProgressHUD (13.7.2)
 
 DEPENDENCIES:
   - Cartography
+  - ProgressHUD
 
 SPEC REPOS:
   trunk:
     - Cartography
+    - ProgressHUD
 
 SPEC CHECKSUMS:
   Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
 
-PODFILE CHECKSUM: 1736b611b929be6420c3f10fe612b9efc3562732
+PODFILE CHECKSUM: 1a3e01692ce0662bb82b1a5a8a488293299a8363
 
 COCOAPODS: 1.11.3

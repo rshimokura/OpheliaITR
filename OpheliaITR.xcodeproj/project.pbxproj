@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3AAA66C2894EBE509441F113 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56701232EFE31667CB46DE6C /* Pods_Example.framework */; };
+		AD1E11C92AC2D71200BD429D /* ProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1E11C82AC2D71200BD429D /* ProgressHUD.framework */; };
 		ADDE16BA2AC2B0100012E5A8 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDE16B32AC2AF550012E5A8 /* Cartography.framework */; };
 		ADDE16BD2AC2B1890012E5A8 /* OpheliaITR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEED0D42AC16C53005D4F9A /* OpheliaITR.framework */; };
 		ADEED0D92AC16C53005D4F9A /* OpheliaITR.docc in Sources */ = {isa = PBXBuildFile; fileRef = ADEED0D82AC16C53005D4F9A /* OpheliaITR.docc */; };
@@ -38,6 +39,7 @@
 		56701232EFE31667CB46DE6C /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		988604B767CE573A7A9A9727 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD110308E4B67B3FC6D86F5D /* Pods-OpheliaITR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpheliaITR.release.xcconfig"; path = "Target Support Files/Pods-OpheliaITR/Pods-OpheliaITR.release.xcconfig"; sourceTree = "<group>"; };
+		AD1E11C82AC2D71200BD429D /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE16B32AC2AF550012E5A8 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADDE16B52AC2AF770012E5A8 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADEED0D42AC16C53005D4F9A /* OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1E11C92AC2D71200BD429D /* ProgressHUD.framework in Frameworks */,
 				ADDE16BA2AC2B0100012E5A8 /* Cartography.framework in Frameworks */,
 				EEF606C0BDBE098FB34AA062 /* Pods_OpheliaITR.framework in Frameworks */,
 			);
@@ -83,6 +86,7 @@
 		187215A07C1549ACEFC5268D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD1E11C82AC2D71200BD429D /* ProgressHUD.framework */,
 				ADDE16B52AC2AF770012E5A8 /* Cartography.framework */,
 				ADDE16B32AC2AF550012E5A8 /* Cartography.framework */,
 				ADEED14A2AC2AD22005D4F9A /* Cartography.framework */,

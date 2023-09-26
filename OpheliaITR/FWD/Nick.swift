@@ -7,6 +7,7 @@
 
 import UIKit
 import Cartography
+import ProgressHUD
 
 public final class Nick {
     public init() {}
@@ -21,6 +22,17 @@ public final class Nick {
         constrain(view, label) {
             base, label in
             label.center == base.center
+        }
+    }
+    public func showProgress(view: UIView) {
+        ProgressHUD.animationType = .multipleCirclePulse
+        ProgressHUD.colorAnimation = .red
+        ProgressHUD.mediaSize = 100
+        ProgressHUD.marginSize = 10
+        ProgressHUD.show(icon: .heart)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+            ProgressHUD.dismiss()
         }
     }
 }
