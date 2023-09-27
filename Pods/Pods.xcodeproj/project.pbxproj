@@ -90,7 +90,7 @@
 		144448F7DCCB81FE1F5E8936E2ED5FE0 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		15B9FE0CABC82FF456E9C33FEB0EFBE4 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
 		1A6F2AACD40ABF38E15789677E0C0285 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A63A5BC8A76B2713B8FF4B1DD92A609 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		30A1023F02EE9BCBD08E2074ACF86991 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
 		31B4A442278BCCF538C645CED408E290 /* LayoutProxy+TypeErasure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LayoutProxy+TypeErasure.swift"; path = "Cartography/LayoutProxy+TypeErasure.swift"; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		3CAC25532D548F880CB0F5E81AE005A9 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		40140A8676B067F705BF81DB6797F44F /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
 		4256423CECF663ECDF0421CBE5C290D1 /* Pods-OpheliaITR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpheliaITR-Info.plist"; sourceTree = "<group>"; };
-		47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpheliaITR"; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A10B482AF978FFD47BBCD9017ECF8C /* Pods_OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		553B0C453E9B8AA96A27D87753235E91 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		5AA3BF04B6B98D14DB1D51252DE67F8C /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		5DEDB65EFD40099ADD720C7A97510240 /* Cartography */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,7 +120,7 @@
 		95CCA917A83B7EB56A05E8EEC522171F /* ProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		98B997E9E4C3C8F349F2AA5F70D27E3B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
 		9C26EEF102B979E4512F65570469B730 /* LayoutGuideProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutGuideProxy.swift; path = Cartography/LayoutGuideProxy.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F66DADD085846EE0DA8D294A03FCCAC /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
 		A3C68D3843673C3E2B299E4DC35AF8AA /* Pods-OpheliaITR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpheliaITR-acknowledgements.plist"; sourceTree = "<group>"; };
 		A68009C4880FB8B41CED8E66E51D202B /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -225,7 +225,6 @@
 				F0355647A8E05595C0EFE98621DC28A6 /* ViewProxy.swift */,
 				A10AFB0F190373D2740FA5B5E0427F8C /* Support Files */,
 			);
-			name = Cartography;
 			path = Cartography;
 			sourceTree = "<group>";
 		};
@@ -300,7 +299,6 @@
 				AC5E9A64565A66023FBF79CCB2CD9FB7 /* ProgressHUD.swift */,
 				50A7B33A0CE811426993B1F1991355ED /* Support Files */,
 			);
-			name = ProgressHUD;
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -342,8 +340,8 @@
 			isa = PBXGroup;
 			children = (
 				5DEDB65EFD40099ADD720C7A97510240 /* Cartography */,
-				1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */,
-				47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+				47A10B482AF978FFD47BBCD9017ECF8C /* Pods_OpheliaITR.framework */,
 				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */,
 			);
 			name = Products;
@@ -422,7 +420,7 @@
 			);
 			name = "Pods-Example";
 			productName = Pods_Example;
-			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */;
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7BFF39D798C7C5481879CDE1D8D0547B /* Pods-OpheliaITR */ = {
@@ -442,7 +440,7 @@
 			);
 			name = "Pods-OpheliaITR";
 			productName = Pods_OpheliaITR;
-			productReference = 47A10B482AF978FFD47BBCD9017ECF8C /* Pods-OpheliaITR */;
+			productReference = 47A10B482AF978FFD47BBCD9017ECF8C /* Pods_OpheliaITR.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8FBDBAAAB58D03FB5BB194A7F5231422 /* Cartography */ = {
@@ -620,6 +618,7 @@
 			baseConfigurationReference = 1A6F2AACD40ABF38E15789677E0C0285 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -725,6 +724,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -792,6 +792,7 @@
 			baseConfigurationReference = C2C0EFDC6D6DC93AB8CDE6960BA3221D /* Pods-OpheliaITR.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -829,6 +830,7 @@
 			baseConfigurationReference = 2A63A5BC8A76B2713B8FF4B1DD92A609 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -901,6 +903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -964,6 +967,7 @@
 			baseConfigurationReference = 01F1B2E4F664DB3A9CAC7464E05C121C /* Pods-OpheliaITR.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
