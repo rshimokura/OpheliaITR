@@ -85,7 +85,7 @@
 		02B899138DFE2282383F3D6567FD7F59 /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
 		070F288B31A98004E3000FDC548FFEEF /* Cartography.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.debug.xcconfig; sourceTree = "<group>"; };
 		0C2EB14C2D83EAAA9B169E692DB89172 /* Pods-OpheliaITR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpheliaITR-dummy.m"; sourceTree = "<group>"; };
-		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressHUD; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E43015180AC3FB43472BE233E8CC6D2 /* Pods-OpheliaITR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpheliaITR.modulemap"; sourceTree = "<group>"; };
 		144448F7DCCB81FE1F5E8936E2ED5FE0 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		15B9FE0CABC82FF456E9C33FEB0EFBE4 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		47A10B482AF978FFD47BBCD9017ECF8C /* Pods_OpheliaITR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpheliaITR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		553B0C453E9B8AA96A27D87753235E91 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		5AA3BF04B6B98D14DB1D51252DE67F8C /* ProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		5DEDB65EFD40099ADD720C7A97510240 /* Cartography */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEDB65EFD40099ADD720C7A97510240 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6055F4A441A594893E589AB6BE0904EF /* Pods-OpheliaITR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpheliaITR-acknowledgements.markdown"; sourceTree = "<group>"; };
 		65A7222F7E0B2D228F79F135BC6BFF2C /* LayoutItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutItem.swift; path = Cartography/LayoutItem.swift; sourceTree = "<group>"; };
 		694AFEA45E03D1BB30CDCECE30E393BB /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -339,10 +339,10 @@
 		DA14A32D022ACB019409968893423516 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DEDB65EFD40099ADD720C7A97510240 /* Cartography */,
+				5DEDB65EFD40099ADD720C7A97510240 /* Cartography.framework */,
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 				47A10B482AF978FFD47BBCD9017ECF8C /* Pods_OpheliaITR.framework */,
-				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */,
+				0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,7 +400,7 @@
 			);
 			name = ProgressHUD;
 			productName = ProgressHUD;
-			productReference = 0D3287058D2F13BD484A454154BEA62B /* ProgressHUD */;
+			productReference = 0D3287058D2F13BD484A454154BEA62B /* ProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
@@ -458,7 +458,7 @@
 			);
 			name = Cartography;
 			productName = Cartography;
-			productReference = 5DEDB65EFD40099ADD720C7A97510240 /* Cartography */;
+			productReference = 5DEDB65EFD40099ADD720C7A97510240 /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -644,7 +644,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -677,7 +677,7 @@
 				PRODUCT_MODULE_NAME = ProgressHUD;
 				PRODUCT_NAME = ProgressHUD;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -711,7 +711,7 @@
 				PRODUCT_MODULE_NAME = ProgressHUD;
 				PRODUCT_NAME = ProgressHUD;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -818,7 +818,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -856,7 +856,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -889,7 +889,7 @@
 				PRODUCT_MODULE_NAME = Cartography;
 				PRODUCT_NAME = Cartography;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -993,7 +993,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1026,7 +1026,7 @@
 				PRODUCT_MODULE_NAME = Cartography;
 				PRODUCT_NAME = Cartography;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

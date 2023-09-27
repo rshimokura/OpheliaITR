@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OpheliaITR"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
   spec.summary      = "This is short description of OpheliaITR."
 
   spec.description  = <<-DESC
